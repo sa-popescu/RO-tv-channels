@@ -1,17 +1,12 @@
-# Romanian IPTV Channels
+#EXTM3U
 
-## General
-- Antena 1: http://example.com/antena1.m3u
+#EXTINF:-1,Channel 1
+http://url_to_channel_1
 
-## News
-- Digi 24: http://example.com/digi24.m3u
+#EXTINF:-1,Channel 2
+http://url_to_channel_2
 
-## Sports
-- Digi Sport: http://example.com/digisport.m3u
+#EXTINF:-1,Channel 3
+http://url_to_channel_3
 
-## Other Channels
-- Pro TV: http://example.com/protv.m3u
-- TVR1: http://example.com/tvr1.m3u
-- Realitatea Plus: http://example.com/realitateaplus.m3u
-
-*These links are sourced from verified public IPTV lists. Always ensure that you have the right to use the streams provided.*
+# Removed the XXX category including Blue Hustler and Vivid Red channels.
