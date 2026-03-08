@@ -1,17 +1,10 @@
-# Romanian IPTV Channels
+#EXTM3U
 
-## General
-- Antena 1: http://example.com/antena1.m3u
+#EXTINF:-1 tvg-id="ChannelID1" tvg-name="Channel Name 1" group-title="Group 1", Channel 1
+http://example.com/stream1
 
-## News
-- Digi 24: http://example.com/digi24.m3u
+#EXTINF:-1 tvg-id="ChannelID2" tvg-name="Channel Name 2" group-title="Group 2", Channel 2
+http://example.com/stream2
 
-## Sports
-- Digi Sport: http://example.com/digisport.m3u
-
-## Other Channels
-- Pro TV: http://example.com/protv.m3u
-- TVR1: http://example.com/tvr1.m3u
-- Realitatea Plus: http://example.com/realitateaplus.m3u
-
-*These links are sourced from verified public IPTV lists. Always ensure that you have the right to use the streams provided.*
+#EXTINF:-1 tvg-id="ChannelID3" tvg-name="Channel Name 3" group-title="Group 3", Channel 3
+http://example.com/stream3
