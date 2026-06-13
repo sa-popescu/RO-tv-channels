@@ -1,11 +1,12 @@
-#EXTM3U
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz"
 # Romanian free-to-air / clear TV channels.
 # Sources are official broadcaster CDNs only (no DRM, no third-party re-streams).
+# EPG: epgshare01 RO1 (updated daily). tvg-id values match its channel ids where a guide exists.
 # Some streams may rotate URLs over time; verify periodically.
 
 # ============================ NEWS ============================
 
-#EXTINF:-1 tvg-id="Digi24.ro" tvg-logo="https://i.imgur.com/H3km8ic.png" group-title="News",Digi 24
+#EXTINF:-1 tvg-id="Digi.24.ro" tvg-logo="https://i.imgur.com/H3km8ic.png" group-title="News",Digi 24
 https://edge-ar.rcs-rds.ro/digi24ar/index.m3u8
 
 #EXTINF:-1 tvg-id="ProTVNews.ro" tvg-logo="https://i.imgur.com/kZ8nkLC.png" group-title="News",Pro TV News
@@ -14,58 +15,58 @@ https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8
 #EXTINF:-1 tvg-id="ObservatorNews.ro" group-title="News",Observator News
 https://live1ag.antenaplay.ro/live_ObservatorNews/live_ObservatorNews.m3u8
 
-#EXTINF:-1 tvg-id="RealitateaPlus.ro" tvg-logo="https://i.imgur.com/p8O3H7K.png" group-title="News",Realitatea Plus
+#EXTINF:-1 tvg-id="Realitatea.Plus.ro" tvg-logo="https://i.imgur.com/p8O3H7K.png" group-title="News",Realitatea Plus
 https://stream.realitatea.net/realitatea/plus_md/ts:playlist.m3u8
 
 #EXTINF:-1 tvg-id="RealitateaSportiva.ro" group-title="News",Realitatea Sportiva
 https://stream.realitatea.net/realitatea/sportiva_md/ts:playlist.m3u8
 
-#EXTINF:-1 tvg-id="AlephNews.ro" tvg-logo="https://i.imgur.com/qPRQZMI.png" group-title="News",Aleph News
+#EXTINF:-1 tvg-id="Aleph.News.ro" tvg-logo="https://i.imgur.com/qPRQZMI.png" group-title="News",Aleph News
 https://stream-aleph.m.ro/Aleph/ngrp:Alephnewsmain.stream_all/playlist.m3u8
 
-#EXTINF:-1 tvg-id="AlephBusiness.ro" group-title="News",Aleph Business
+#EXTINF:-1 tvg-id="Aleph.Business.HD.ro" group-title="News",Aleph Business
 https://streamw.m.ro/Aleph/ngrp:Alephbiz.stream_all/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RomaniaTV.ro" tvg-logo="https://i.imgur.com/ZIfEp5I.png" group-title="News",Romania TV
+#EXTINF:-1 tvg-id="România.TV.ro" tvg-logo="https://i.imgur.com/ZIfEp5I.png" group-title="News",Romania TV
 #EXTVLCOPT:http-referrer=https://www.romaniatv.net/live
 https://livestream.romaniatv.net/clients/romaniatv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TVRInfo.ro" tvg-logo="https://i.imgur.com/7oE7ThR.png" group-title="News",TVR Info
+#EXTINF:-1 tvg-id="TVR.Info.ro" tvg-logo="https://i.imgur.com/7oE7ThR.png" group-title="News",TVR Info
 https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/chunklist_b5160000.m3u8
 
 # ============================ GENERAL ============================
 
-#EXTINF:-1 tvg-id="TVR1.ro" tvg-logo="https://i.imgur.com/CKQ7mpB.png" group-title="General",TVR 1
+#EXTINF:-1 tvg-id="TVR.1.ro" tvg-logo="https://i.imgur.com/CKQ7mpB.png" group-title="General",TVR 1
 https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/chunklist_b5160000.m3u8
 
-#EXTINF:-1 tvg-id="TVR2.ro" tvg-logo="https://i.imgur.com/9lUZAAd.png" group-title="General",TVR 2
+#EXTINF:-1 tvg-id="TVR.2.ro" tvg-logo="https://i.imgur.com/9lUZAAd.png" group-title="General",TVR 2
 https://tvr-2.lg.mncdn.com/tvr2/smil:tvr2.smil/chunklist_b5160000.m3u8
 
-#EXTINF:-1 tvg-id="TVR3.ro" tvg-logo="https://i.imgur.com/JZ6XuED.png" group-title="General",TVR 3
+#EXTINF:-1 tvg-id="TVR.3.ro" tvg-logo="https://i.imgur.com/JZ6XuED.png" group-title="General",TVR 3
 https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/chunklist_b5160000.m3u8
 
-#EXTINF:-1 tvg-id="TVRInternational.ro" tvg-logo="https://i.imgur.com/w28wcHs.png" group-title="General",TVR International
+#EXTINF:-1 tvg-id="TVR.International.ro" tvg-logo="https://i.imgur.com/w28wcHs.png" group-title="General",TVR International
 https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/chunklist_b5160000.m3u8
 
-#EXTINF:-1 tvg-id="TVRCluj.ro" group-title="General",TVR Cluj
+#EXTINF:-1 tvg-id="TVR.Cluj.ro" group-title="General",TVR Cluj
 https://tvr-cluj.lg.mncdn.com/tvrcluj/smil:tvrcluj.smil/chunklist_b5160000.m3u8
 
-#EXTINF:-1 tvg-id="TVRCraiova.ro" group-title="General",TVR Craiova
+#EXTINF:-1 tvg-id="TVR.Craiova.ro" group-title="General",TVR Craiova
 https://tvr-craiova.lg.mncdn.com/tvrcraiova/smil:tvrcraiova.smil/chunklist_b5160000.m3u8
 
-#EXTINF:-1 tvg-id="TVRTimisoara.ro" group-title="General",TVR Timisoara
+#EXTINF:-1 tvg-id="TVR.Timișoara.ro" group-title="General",TVR Timisoara
 https://tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil:tvrtimisoara.smil/chunklist_b5160000.m3u8
 
-#EXTINF:-1 tvg-id="TVRTarguMures.ro" group-title="General",TVR Targu-Mures
+#EXTINF:-1 tvg-id="TVR.Târgu.Mureș.ro" group-title="General",TVR Targu-Mures
 https://tvr-tgmures.lg.mncdn.com/tvrtgmures/smil:tvrtgmures.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="KanalDRomania.ro" tvg-logo="https://i.imgur.com/15ILp0P.png" group-title="General",Kanal D
+#EXTINF:-1 tvg-id="Kanal.D.ro" tvg-logo="https://i.imgur.com/15ILp0P.png" group-title="General",Kanal D
 https://stream1.kanald.ro/iphone/knd-live.m3u8
 
-#EXTINF:-1 tvg-id="KanalD2.ro" tvg-logo="https://i.imgur.com/0SMSIm9.png" group-title="General",Kanal D2
+#EXTINF:-1 tvg-id="Kanal.D2.ro" tvg-logo="https://i.imgur.com/0SMSIm9.png" group-title="General",Kanal D2
 https://stream2.kanald.ro/iphone/knd2-live_low/index.m3u8
 
-#EXTINF:-1 tvg-id="NasulTV.ro" tvg-logo="https://i.imgur.com/iL2aOxY.png" group-title="General",Nasul TV
+#EXTINF:-1 tvg-id="Nasul.TV.ro" tvg-logo="https://i.imgur.com/iL2aOxY.png" group-title="General",Nasul TV
 https://live.nasul.tv/live/stream.m3u8
 
 #EXTINF:-1 tvg-id="RealitateaStar.ro" tvg-logo="https://i.imgur.com/bNdpyAZ.png" group-title="General",Realitatea Star
@@ -98,32 +99,32 @@ https://cdn.streamnet.pro/musceltv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="InformatiaTV.ro" group-title="General",Informatia TV
 https://informatia.streamnet.ro/mobile_tv/informatiatv.m3u8
 
-#EXTINF:-1 tvg-id="Telestar1.ro" group-title="General",Telestar 1
+#EXTINF:-1 tvg-id="Telestar.1.ro" group-title="General",Telestar 1
 https://dvb.tennet.ro/mobile_tv/telestar.m3u8
 
 # ============================ LIFESTYLE ============================
 
-#EXTINF:-1 tvg-id="AgroTV.ro" group-title="Lifestyle",Agro TV
+#EXTINF:-1 tvg-id="Agro.TV.ro" group-title="Lifestyle",Agro TV
 https://agrotv.streamnet.ro/mobile_tv/agrotv.m3u8
 
 #EXTINF:-1 tvg-id="MediCOOLTV.ro" group-title="Lifestyle",MediCOOL TV
 https://stream1.antenaplay.ro/live/MediCOOLTV/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="JOBTV.ro" group-title="Lifestyle",JOB TV
+#EXTINF:-1 tvg-id="Job.TV.ro" group-title="Lifestyle",JOB TV
 https://jobtvserver.eu/hls/stream.m3u8
 
 # ============================ CULTURE / RELIGIOUS ============================
 
-#EXTINF:-1 tvg-id="TVRCultural.ro" tvg-logo="https://i.imgur.com/U9i70C9.png" group-title="Culture",TVR Cultural
+#EXTINF:-1 tvg-id="TVR.Cultural.ro" tvg-logo="https://i.imgur.com/U9i70C9.png" group-title="Culture",TVR Cultural
 https://tvr-cultural.lg.mncdn.com/tvrcultural/smil:tvrcultural.smil/chunklist_b5160000.m3u8
 
-#EXTINF:-1 tvg-id="TVRFolclor.ro" group-title="Culture",TVR Folclor
+#EXTINF:-1 tvg-id="TVR.Folclor.ro" group-title="Culture",TVR Folclor
 https://tvr-folclor.lg.mncdn.com/tvrfolclor/smil:tvrfolclor.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="CredoTV.ro" group-title="Religious",Credo TV
+#EXTINF:-1 tvg-id="Credo.TV.ro" group-title="Religious",Credo TV
 http://cdn.credonet.tv:1935/ctv/livecredo/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SperantaTV.ro" group-title="Religious",Speranta TV
+#EXTINF:-1 tvg-id="Speranta.TV.ro" group-title="Religious",Speranta TV
 https://jstre.am/live/jsl:2gNjpghXRLE.m3u8
 
 #EXTINF:-1 tvg-id="AngelusTV.ro" group-title="Religious",Angelus TV
